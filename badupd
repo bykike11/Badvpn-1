@@ -9,6 +9,7 @@ make install
 echo "paleistas BadVPN portu 7300"
 badvpn-udpgw --listen-addr 127.0.0.1:7300 > /dev/null &
 rm /root/badupd
+rm /root/badvpn-1.999.128.tar.bz2
 echo "Badupd sekmingai irasytas!!"
 echo "Buk_laisvas HS_pro 2019"
 
